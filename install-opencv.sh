@@ -58,7 +58,7 @@ source ~/.bashrc
 
 mkvirtualenv cv -p python3
 pip install "picamera[array]"
-pip install opencv-contrib-python==4.1.0.25
+#pip install opencv-contrib-python==4.1.0.25
 pip install numpy
 pip install dlib
 pip install face_recognition
