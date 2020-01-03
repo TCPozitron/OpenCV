@@ -1,4 +1,4 @@
-Before starting yo'll need to install Raspbian Buster operating system to your microSD card.
+Before starting you'll need to install Raspbian Buster operating system to your microSD card.
 
 1. Head on over to the official Raspberry Pi download page and download  “Raspbian Buster with Desktop and recommended software”
 2. Download Balena Etcher — software for flashing memory cards. It works on every major OS
