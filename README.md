@@ -6,11 +6,10 @@ Before starting you'll need to install Raspbian Buster operating system to your 
 4. Use Etcher to flash .img to your memory card (min 16GB recommended)
 5. Do necessary changes to initial configuration, make sure to expand filesystem via raspi-config
 6. Open terminal, enter:
-
+```
 cd ~
-
 wget https://raw.githubusercontent.com/z-hex/OpenCV/master/install-opencv.sh
-
 chmod +x install-opencv.sh
-
 ./install-opencv.sh
+
+```
