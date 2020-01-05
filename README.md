@@ -13,9 +13,9 @@ chmod +x install-opencv.sh
 ./install-opencv.sh
 
 ```
-IMPORTANT!
-I tested a script with Raspberry Pi 3B + and it worked!
-You need to do following changes in lines 94-96 - instead of:
+IMPORTANT
+I tested a script with Raspberry Pi 3B + and it worked
+You need to do following changes in lines 100-102 - instead of:
 ```
     -D BUILD_EXAMPLES=ON ..
 
