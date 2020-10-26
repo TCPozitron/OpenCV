@@ -11,8 +11,8 @@ sudo apt-get -y purge libreoffice*
 sudo apt-get -y clean
 sudo apt-get -y autoremove
 
-# Step 0: Select version
-cvVersion="4.1.1"
+# Step 0: Select version - master (latest)
+# cvVersion="4.1.1"
 
 # Step 1: Update packages
 echo "Update & Upgrade....."
@@ -68,8 +68,8 @@ echo "----- Done -----"
 # Step 4: Download opencv and opencv_contrib
 echo "Downloading opencv and opencv_contrib....."
 cd ~
-wget -O opencv.zip https://github.com/opencv/opencv/archive/$cvVersion.zip
-wget -O opencv_contrib.zip https://github.com/opencv/opencv_contrib/archive/$cvVersion.zip
+wget -O opencv.zip https://github.com/opencv/opencv/archive/master.zip
+wget -O opencv_contrib.zip https://github.com/opencv/opencv_contrib/archive/master.zip
 unzip opencv.zip
 unzip opencv_contrib.zip
 mv opencv-$cvVersion opencv
