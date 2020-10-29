@@ -72,8 +72,8 @@ wget -O opencv.zip https://github.com/opencv/opencv/archive/master.zip
 wget -O opencv_contrib.zip https://github.com/opencv/opencv_contrib/archive/master.zip
 unzip opencv.zip
 unzip opencv_contrib.zip
-mv opencv-$cvVersion opencv
-mv opencv_contrib-$cvVersion opencv_contrib
+mv opencv-master opencv
+mv opencv_contrib-master opencv_contrib
 echo "----- Done -----"
 echo "Changing SWAPSIZE to 2048...."
 ############ Change SWAPSIZE ############
