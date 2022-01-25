@@ -1,4 +1,4 @@
-##Branch for Raspberry Pi 3
+Branch for Raspberry Pi 3
 
 Before starting you'll need to install Raspbian Buster operating system to your microSD card.
 
