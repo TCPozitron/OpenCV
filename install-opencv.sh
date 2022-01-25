@@ -97,9 +97,9 @@ cmake -D CMAKE_BUILD_TYPE=RELEASE \
     -D INSTALL_PYTHON_EXAMPLES=ON \
     -D OPENCV_ENABLE_NONFREE=ON \
     -D CMAKE_SHARED_LINKER_FLAGS=-latomic \
-    -D BUILD_EXAMPLES=ON ..
+    -D BUILD_EXAMPLES=OFF ..
 
-make -j$(nproc)
+make
 sudo make install
 sudo ldconfig
 cd /usr/local/lib/python3.7/site-packages/cv2/python-3.7
