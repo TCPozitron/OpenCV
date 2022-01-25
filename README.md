@@ -1,3 +1,4 @@
+Branch for Raspberry Pi 3
 Before starting you'll need to install Raspbian Buster operating system to your microSD card.
 
 1. Head on over to the official Raspberry Pi download page and download  “Raspbian Buster with Desktop and recommended software”
@@ -12,19 +13,5 @@ wget https://raw.githubusercontent.com/z-hex/OpenCV/master/install-opencv.sh
 chmod +x install-opencv.sh
 ./install-opencv.sh
 
-```
-IMPORTANT
-I tested a script with Raspberry Pi 3B + and it worked
-You need to do following changes in lines 100-102 - instead of:
-```
-    -D BUILD_EXAMPLES=ON ..
-
-make -j$(nproc)
-```
-use:
-```
-    -D BUILD_EXAMPLES=OFF ..
-
-make
 ```
 Be patient, could take 3-4 hours to complete it.
