@@ -12,19 +12,3 @@ wget https://raw.githubusercontent.com/TCPozitron/OpenCV/master/install-opencv.s
 chmod +x install-opencv.sh
 ./install-opencv.sh
 
-```
-IMPORTANT
-I tested a script with Raspberry Pi 3B + and it worked
-You need to do following changes in lines 100-102 - instead of:
-```
-    -D BUILD_EXAMPLES=ON ..
-
-make -j$(nproc)
-```
-use:
-```
-    -D BUILD_EXAMPLES=OFF ..
-
-make
-```
-Be patient, could take 3-4 hours to complete it.
