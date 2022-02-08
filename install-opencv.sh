@@ -1,8 +1,8 @@
 #!/bin/bash -i
 
-############## OpenCV installation on Rasoberry Pi 4  #############
+############## OpenCV installation on Raspberry Pi 4  #############
 
-echo "OpenCV Installation Script for Raspberry Pi 3 / Raspbian Buster"
+echo "OpenCV Installation Script for Raspberry Pi 4 / Raspbian Buster"
 echo "by Zeljko Krnjajic"
 
 echo "Removing Wolfram & LibreOffice..."
