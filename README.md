@@ -8,7 +8,7 @@ Before starting you'll need to install Raspbian Buster operating system to your 
 6. Open terminal, enter:
 ```
 cd ~
-wget https://raw.githubusercontent.com/z-hex/OpenCV/master/install-opencv.sh
+wget https://raw.githubusercontent.com/TCPozitron/OpenCV/master/install-opencv.sh
 chmod +x install-opencv.sh
 ./install-opencv.sh
 
